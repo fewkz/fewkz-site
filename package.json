@@ -1,0 +1,8 @@
+{
+  "name": "fewkz-site",
+  "packageManager": "yarn@3.2.2",
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "sharp": "^0.29.1"
+  }
+}

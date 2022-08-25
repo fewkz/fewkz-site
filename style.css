@@ -1,0 +1,55 @@
+body {
+  font-family: 'Silkscreen';
+  color: #AC0706;
+  background-color: #A3B6BB;
+}
+.info {
+  margin-left:40px;
+  margin-top:60px;
+}
+@media all and (min-width: 1000px) {
+  body {
+    font-size: 1.5em;
+  }
+  .info {
+    width: calc(190px * 1.5);
+  }
+}
+@media not all and (min-width: 1000px) {
+  .info {
+    width: 190px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .avatar {
+    right: 5vh;
+  }
+}
+@media all and (max-width: 1200px) and (min-width: 500px) {
+  .avatar {
+    right: 0vh;
+  }
+}
+@media all and (max-width: 500px) {
+  .avatar {
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+}
+.links > a {
+  /* Don't wrap links because it looks weird */
+  white-space: nowrap;
+}
+.avatar {
+  position: absolute;
+  height: 90vh;
+  bottom: 5vh;
+  top: 5vh;
+  z-index: -1;
+}
+.avatar-caption {
+  position: absolute;
+  bottom: 1vh;
+  right:14vh;
+}
